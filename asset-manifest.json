@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bfed4d08.css",
-    "main.js": "/portfolio/static/js/main.14a1a625.js",
+    "main.css": "/portfolio/static/css/main.eec8c233.css",
+    "main.js": "/portfolio/static/js/main.6734f234.js",
     "static/media/waveform-home.png": "/portfolio/static/media/waveform-home.9a351735e21a33075453.png",
     "static/media/booksite.png": "/portfolio/static/media/booksite.c5fe9e782c137a826e89.png",
     "static/media/Home.jpeg": "/portfolio/static/media/Home.4d7b942558aeee7c63d1.jpeg",
@@ -18,11 +18,11 @@
     "static/media/close.svg": "/portfolio/static/media/close.52ab0d39b2c514b8322115c951eac5a2.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
     "index.html": "/portfolio/index.html",
-    "main.bfed4d08.css.map": "/portfolio/static/css/main.bfed4d08.css.map",
-    "main.14a1a625.js.map": "/portfolio/static/js/main.14a1a625.js.map"
+    "main.eec8c233.css.map": "/portfolio/static/css/main.eec8c233.css.map",
+    "main.6734f234.js.map": "/portfolio/static/js/main.6734f234.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfed4d08.css",
-    "static/js/main.14a1a625.js"
+    "static/css/main.eec8c233.css",
+    "static/js/main.6734f234.js"
   ]
 }
