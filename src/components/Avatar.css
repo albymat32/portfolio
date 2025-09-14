@@ -1,0 +1,41 @@
+.avatar-container {
+    position: relative;
+  }
+  
+  .avatar-image {
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Adjust size as needed */
+    border-radius: 1.2rem;
+    position: relative;
+    left: 10%;
+    opacity: 0;
+    transition: filter 0.3s ease; /* Smooth transition */
+  }
+  
+  .profile-image-a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .avatar-container:hover .profile-image-a {
+    opacity: 1; /* Show profile image on hover */
+    transform: translateX(50%); /* Translate on X-axis when hovered */
+  }
+  
+  .avatar-container:hover .avatar-image {
+     /* Dim avatar image on hover */
+    left: 30%;
+    opacity: 1;
+    transition: filter 1s ease-in;
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 768px) {
+    .avatar-container:hover .profile-image-a {
+      transform: translateY(50%); /* Translate on Y-axis on mobile */
+    }
+  }
+  

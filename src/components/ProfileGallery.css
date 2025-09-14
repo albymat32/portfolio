@@ -1,0 +1,120 @@
+.profile-gallery {
+  width: 100%;
+  margin: 0.5 rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* ===== Desktop Stack ===== */
+.stack-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transform: translateY(40px) scale(0.9);
+  animation: fadeInUp 0.8s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* === Desktop infinite carousel === */
+.desktop-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.desktop-track {
+  display: flex;
+}
+
+.desktop-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-right: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transform: translateY(40px) scale(0.9);
+  animation: fadeInUp 0.8s forwards;
+}
+
+/* Add scroll animation only when startScroll is true */
+.desktop-carousel.scrolling .desktop-track {
+  animation: desktopScroll 25s linear infinite;
+}
+
+@keyframes desktopScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* ===== Mobile Carousel ===== */
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll 25s linear infinite;
+  min-width: 200%;
+}
+
+.carousel-img {
+  width: 180px;
+  height: 180px; /* default (desktop-like) */
+  object-fit: cover;
+  border-radius: 16px;
+  margin-right: 1rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* Make carousel swipe horizontally & increase height on mobile */
+@media (max-width: 768px) {
+  .carousel {
+    padding: 1rem 0;
+  }
+
+  .carousel-img {
+    width: 200px;  /* optional: slightly wider */
+    height: 260px; /* 🔥 taller image height */
+  }
+}
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Make carousel swipe horizontally */
+@media (max-width: 768px) {
+  .carousel {
+    padding: 1rem 0;
+  }
+}
+
+
