@@ -1,12 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eec8c233.css",
-    "main.js": "/portfolio/static/js/main.8198f50d.js",
+    "main.css": "/portfolio/static/css/main.0c63474b.css",
+    "main.js": "/portfolio/static/js/main.0d604b1c.js",
+    "static/media/a thousand years - Christina Perri.flac": "/portfolio/static/media/a thousand years - Christina Perri.78ce660ee3e359dd0ee8.flac",
     "static/media/waveform-home.png": "/portfolio/static/media/waveform-home.9a351735e21a33075453.png",
+    "static/media/old3.jpg": "/portfolio/static/media/old3.f9c363f8c4e26b76db88.jpg",
     "static/media/booksite.png": "/portfolio/static/media/booksite.c5fe9e782c137a826e89.png",
+    "static/media/old1.jpg": "/portfolio/static/media/old1.fedbc20f8a4df2ea8e0c.jpg",
+    "static/media/old7.jpg": "/portfolio/static/media/old7.a1cd8bddcffa6beed411.jpg",
+    "static/media/old2.jpg": "/portfolio/static/media/old2.421aed34e1db2508bd86.jpg",
+    "static/media/old5.jpg": "/portfolio/static/media/old5.9677b4bc482fc60daa38.jpg",
+    "static/media/old6.jpg": "/portfolio/static/media/old6.26e9178088d0801d1a62.jpg",
     "static/media/Home.jpeg": "/portfolio/static/media/Home.4d7b942558aeee7c63d1.jpeg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.551b9297582342b35a5c.pdf",
     "static/media/alby.jpg": "/portfolio/static/media/alby.6e8982f0abe7a544822f.jpg",
+    "static/media/old8.jpg": "/portfolio/static/media/old8.6e8982f0abe7a544822f.jpg",
+    "static/media/old9.jpg": "/portfolio/static/media/old9.6e3951ae88f12a603862.jpg",
     "static/media/sumegh.jpg": "/portfolio/static/media/sumegh.df46c2544728a810e4f4.jpg",
     "static/media/amaldev.jpg": "/portfolio/static/media/amaldev.05f93065a2e727b3ed34.jpg",
     "static/media/attend.png": "/portfolio/static/media/attend.b5783e7607777fef1363.png",
@@ -18,11 +27,11 @@
     "static/media/close.svg": "/portfolio/static/media/close.52ab0d39b2c514b8322115c951eac5a2.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
     "index.html": "/portfolio/index.html",
-    "main.eec8c233.css.map": "/portfolio/static/css/main.eec8c233.css.map",
-    "main.8198f50d.js.map": "/portfolio/static/js/main.8198f50d.js.map"
+    "main.0c63474b.css.map": "/portfolio/static/css/main.0c63474b.css.map",
+    "main.0d604b1c.js.map": "/portfolio/static/js/main.0d604b1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.eec8c233.css",
-    "static/js/main.8198f50d.js"
+    "static/css/main.0c63474b.css",
+    "static/js/main.0d604b1c.js"
   ]
 }
