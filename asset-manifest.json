@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0c63474b.css",
-    "main.js": "/portfolio/static/js/main.0d604b1c.js",
-    "static/media/a thousand years - Christina Perri.flac": "/portfolio/static/media/a thousand years - Christina Perri.78ce660ee3e359dd0ee8.flac",
+    "main.css": "/portfolio/static/css/main.8c4457ea.css",
+    "main.js": "/portfolio/static/js/main.a90cdfe6.js",
+    "static/media/out.mp3": "/portfolio/static/media/out.09a3c8c157dcc55a034d.mp3",
     "static/media/waveform-home.png": "/portfolio/static/media/waveform-home.9a351735e21a33075453.png",
     "static/media/old3.jpg": "/portfolio/static/media/old3.f9c363f8c4e26b76db88.jpg",
     "static/media/booksite.png": "/portfolio/static/media/booksite.c5fe9e782c137a826e89.png",
@@ -24,14 +24,14 @@
     "static/media/abhijithV.jpg": "/portfolio/static/media/abhijithV.789220368c6475279f70.jpg",
     "static/media/godot.png": "/portfolio/static/media/godot.33812ea21b1fb3f84864.png",
     "static/media/github.png": "/portfolio/static/media/github.ed1c06d925fff0b57e32.png",
+    "index.html": "/portfolio/index.html",
     "static/media/close.svg": "/portfolio/static/media/close.52ab0d39b2c514b8322115c951eac5a2.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
-    "index.html": "/portfolio/index.html",
-    "main.0c63474b.css.map": "/portfolio/static/css/main.0c63474b.css.map",
-    "main.0d604b1c.js.map": "/portfolio/static/js/main.0d604b1c.js.map"
+    "main.8c4457ea.css.map": "/portfolio/static/css/main.8c4457ea.css.map",
+    "main.a90cdfe6.js.map": "/portfolio/static/js/main.a90cdfe6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c63474b.css",
-    "static/js/main.0d604b1c.js"
+    "static/css/main.8c4457ea.css",
+    "static/js/main.a90cdfe6.js"
   ]
 }
